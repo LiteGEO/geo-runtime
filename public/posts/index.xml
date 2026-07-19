@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on My New Hugo Project</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My New Hugo Project</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Project</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jul 2026 09:00:04 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>LiteGEO：从 AI 可见性监测到持续优化</title><link>https://example.org/posts/geo-overview/</link><pubDate>Sun, 19 Jul 2026 09:00:04 +0800</pubDate><guid>https://example.org/posts/geo-overview/</guid><description>LiteGEO 是一个面向中文市场的生成式引擎优化平台，帮助品牌衡量并提升在 AI 回答中的可见性、引用率与推荐表现。</description></item></channel></rss>
