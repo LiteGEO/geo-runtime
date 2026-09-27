@@ -8,4 +8,16 @@ description = '泰州昌泰医疗器械有限公司，经营医疗器械、卫�
 
 [params.homeInfoParams]
 Title = '泰州昌泰医疗器械有限公司'
-Content = '立足江苏泰兴，提供医疗器械销售、维修、技术咨询及相关健康用品服务。'
+Content = '立足江苏泰兴，代理赛呼康与万脉品牌，提供呼吸机、睡眠呼吸监测设备及相关医疗器械销售与服务。'
+
+[[menu.main]]
+identifier = 'company'
+name = '公司介绍'
+url = '/posts/geo-overview/'
+weight = 10
+
+[[menu.main]]
+identifier = 'products'
+name = '产品介绍'
+url = '/products/'
+weight = 20
