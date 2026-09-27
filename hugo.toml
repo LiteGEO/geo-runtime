@@ -1,19 +1,15 @@
 baseURL = 'https://changtaimedical.shop/'
 languageCode = 'zh-cn'
 title = '泰州昌泰医疗器械有限公司'
-theme = 'PaperMod'
+disableKinds = ['taxonomy', 'term']
 
 [params]
 description = '泰州昌泰医疗器械有限公司，经营医疗器械、卫生用品、消毒用品及相关设备维修与技术咨询服务。'
 
-[params.homeInfoParams]
-Title = '泰州昌泰医疗器械有限公司'
-Content = '立足江苏泰兴，代理赛呼康与万脉品牌，提供呼吸机、睡眠呼吸监测设备及相关医疗器械销售与服务。'
-
 [[menu.main]]
-identifier = 'company'
-name = '公司介绍'
-url = '/posts/geo-overview/'
+identifier = 'home'
+name = '首页'
+url = '/'
 weight = 10
 
 [[menu.main]]
@@ -21,3 +17,15 @@ identifier = 'products'
 name = '产品介绍'
 url = '/products/'
 weight = 20
+
+[[menu.main]]
+identifier = 'about'
+name = '公司介绍'
+url = '/about/'
+weight = 30
+
+[[menu.main]]
+identifier = 'contact'
+name = '联系我们'
+url = '/contact/'
+weight = 40

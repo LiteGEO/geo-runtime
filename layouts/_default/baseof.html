@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}｜医疗器械产品与服务{{ else }}{{ .Title }}｜{{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  {{ partial "extend_head.html" . }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="泰州昌泰医疗器械有限公司首页">
+        <span class="brand-mark">CT</span>
+        <span><strong>昌泰医疗</strong><small>CHANGTAI MEDICAL</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <a class="header-action" href="/contact/">产品咨询</a>
+    </div>
+  </header>
+
+  <main>{{ block "main" . }}{{ end }}</main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand footer-brand" href="/">
+          <span class="brand-mark">CT</span>
+          <span><strong>昌泰医疗</strong><small>CHANGTAI MEDICAL</small></span>
+        </a>
+        <p>医疗器械产品销售、维修与技术咨询服务。</p>
+      </div>
+      <div>
+        <strong>快速导航</strong>
+        <a href="/products/">产品介绍</a>
+        <a href="/about/">公司介绍</a>
+        <a href="/contact/">联系我们</a>
+      </div>
+      <div>
+        <strong>联系信息</strong>
+        <span>泰兴市八一巷 19 号（庆云路 1#）</span>
+        <a href="mailto:420199303@qq.com">420199303@qq.com</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© {{ now.Year }} 泰州昌泰医疗器械有限公司</span>
+      <span>医疗器械信息仅供参考，具体以产品注册资料和说明书为准</span>
+    </div>
+  </footer>
+</body>
+</html>
