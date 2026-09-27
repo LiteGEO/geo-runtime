@@ -1,4 +1,11 @@
-baseURL = 'https://geo-runtime.pages.dev/'
+baseURL = 'https://changtaimedical.shop/'
 languageCode = 'zh-cn'
-title = 'LiteGEO'
+title = '泰州昌泰医疗器械有限公司'
 theme = 'PaperMod'
+
+[params]
+description = '泰州昌泰医疗器械有限公司，经营医疗器械、卫生用品、消毒用品及相关设备维修与技术咨询服务。'
+
+[params.homeInfoParams]
+Title = '泰州昌泰医疗器械有限公司'
+Content = '立足江苏泰兴，提供医疗器械销售、维修、技术咨询及相关健康用品服务。'
